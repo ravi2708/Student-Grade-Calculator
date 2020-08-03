@@ -1,0 +1,51 @@
+body,html{
+	height:100%;
+	margin:0;
+}
+
+.bg{
+	background-image:url("image/bg.jpg");
+	height:100%;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+}
+
+#form{
+	left:10%;
+	top:10%;
+	right:10%;
+	bottom:10%;
+	height:450px;
+	width:550px;
+	margin:20px auto;
+	position:absolute;
+	padding:50px;
+	background-color:#bbded6;
+	background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+}
+
+#one{
+	font-size:30px;
+}
+
+#textbox{
+	margin-top:200px;
+}
+.flex-container{
+	display:flex;
+	flex-direction: row;
+}
+.flex-container > div{
+	margin:20px;
+	margin-left: 50px;
+	padding: 5px;
+	font-size: 20px;
+}
+
+.value{
+	width:155px;
+	height:30px;
+	margin-left:100px;
+	margin-bottom:10px;
+}
